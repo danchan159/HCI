@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="index.css">
+	<title> PetShareNYC </title>
+
+</head>
+
+<body>
+<div class="menu">
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="PoTD.html">Pet of The Day</a></li>
+	<li><a href="infoPage.html">Introduce Yourself!</a></li>
+</ul>
+</div>
+
+<form name="myForm" > First Name: <input type="text" name="firstName">
+Last Name: <input type="text" name="lastName">
+Age: <input type="text" name="name">
+Online Name: <input type="text" name="userName">
+Location: <input type 
+Pet Name: <input type="text" name="petName">
+Pet Breed: <input type="text" name="petBreed">
+Pet Age: <input type="text" name="petAge">
+
+Pick the date: <input type="date"> 
+What's your email: <input type="email"> 
+Telephone number<input type="tel">
+GIve me a number: <input type="number"> 
+Give me a range of numbers: <input type="range">
+
+
+</form>
+
+
+<button onclick="getLocation()">Tell me where I am</button>
+<p id="demo"></p>
+
+
+<div id="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<img id="pets" src="pets.jpg" draggable="True" ondragstart="drag(event)" width="400" height="80">
+
+<button onclick="clickCounter()" type="button">Click me!</button>
+<div id="result"></div>
+
+
+<script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+body {
+	background-repeat: repeat-x;
+	background-position: center top;
+ 	background: linear-gradient(to right, white, teal); 
+    background-repeat: repeat-y;
+    font-family: ;
+    font-size: 2vw;
+}
+
+
+
+#box{
+    width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+
+
+
+.header{
+	background: linear-gradient(to right, white, teal);
+	color: #333;
+	text-align: center;
+}
+
+.header h1{
+	color: lightblue;
+	background-color: #333;
+	margin-left:auto;
+	margin-right:auto;
+	width: 20%;
+	font-size: 2vw;
+	padding: 10px;
+	font-family: Helvetica;
+	border: 3px solid white;
+	border-radius:25px;
+}
+
+.header h3{
+	font-size: 1.3vw;
+}
+
+.header button{
+	border-radius: 4px;
+	background-color: #333;
+	border: none;
+	color: lightblue;
+	font-size: 1vw;
+	width: 10%;
+	transition: all 0.3s;
+	cursor: pointer;
+	margin-bottom: 2%;
+}
+
+.header button span {
+	display: inline-block;
+	position: relative;
+	transition: 0.3s;
+}
+
+.header button span:after{
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -5%;
+	transition: 0.3s;
+}
+
+.header button:hover span{
+	padding-right: 10%;
+}
+
+.header button:hover span:after{
+	opacity: 1;
+	right: 0%;
+}
+
+#player {
+	font-size: 1vw;
+	color: lightblue;
+	position: fixed;
+	right: 0%;
+	top: 0%;
+	background-color: #333;
+	width: auto;
+	border: 3px solid white;
+	opacity: .5;
+}
+
+#player small{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#player audio{
+	width: 80%;
+	position: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+
+.menu{
+	position: relative;
+}
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	border: 3px solid white;
+
+}
+.menu li {
+	float: left;
+}
+
+.menu li a{
+	display: block;
+	color: lightblue;
+	text-align: center;
+	padding: 20px 28px;
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 2vw;
+}
+
+.active, .menu li a:hover{
+	background-color: #111;
+}
+
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+}
+
+.petsTable table{
+	width: 60%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #333;
+	color: lightblue;
+}
+.petsTable table, .petsTable tr, .petsTable th, .petsTable td{
+	text-align: center;
+	font-size: 2vw;
+}
+
+.petsTable tr:hover{
+	background-color: #111;
+}
+
+.petsTable td{
+	width: 60%;
+	height: 60%;
+	border-bottom: 3px solid white;
+	border-right: 3px solid white;
+}
+
+

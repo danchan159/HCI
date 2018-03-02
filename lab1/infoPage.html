@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="index.css">
+	<script src="index.js"></script>
+	<title> PetShareNYC </title>
+</head>
+
+<body onload="quoteChange(), volumeControl()">
+<div class="header">
+	<h1> PetShareNYC </h1>
+	<img id="banner" src="pets/petsNoBackground.png">
+	<h3 id="introQuote">
+	</h3>
+	<button onclick="quoteChange()"><span>Quote Me!</span></button>
+</div>
+
+<div id="player">
+	<small> Ghost Trick OST - A Courageous Little Animal </small>
+	<audio id="sound" controls>
+		<source src="pets/missile.mp3" type="audio/mpeg">
+	</audio>
+</div>
+
+<div class="menu">
+<ul>
+	<li class="page"><a href="index.html">Home</a></li>
+	<li class="page"><a href="PoTD.html">Play</a></li>
+	<li class="page active"><a href="infoPage.html">Share Pet</a></li>
+</ul>
+</div>
+
+<div class="formfields">
+
+<form name="myForm" > 
+First Name: <input type="text" name="firstName">
+Last Name: <input type="text" name="lastName">
+Age: <input type="text" name="name">
+Online Name: <input type="text" name="userName">
+Location: <input type 
+Pet Name: <input type="text" name="petName">
+Pet Breed: <input type="text" name="petBreed">
+Pet Age: <input type="text" name="petAge">
+</form>
+</div>
+
+
+
+
+
+</body>
+</html>
